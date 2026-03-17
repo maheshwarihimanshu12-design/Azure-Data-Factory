@@ -1,0 +1,9 @@
+{
+	"name": "adf-course-him",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "42183e53-735d-454f-8a3b-10ca8d789906",
+		"tenantId": "625fa612-42cd-40c9-b5fd-6880a2e455c4"
+	}
+}
