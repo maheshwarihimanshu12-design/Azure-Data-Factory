@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-course-him"
+		},
+		"LinkServiceDataLake_accountKey": {
+			"value": ""
+		},
+		"LinkServiceDataLake_properties_typeProperties_url": {
+			"value": "https://adfstgdatafactory.dfs.core.windows.net/"
+		},
+		"linked_git_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"Managertrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/238e2a08-b386-4c2c-b4f8-b8256e051b64/resourceGroups/RG-ADFCourse/providers/Microsoft.Storage/storageAccounts/adfstgdatafactory"
+		},
+		"Mantrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/238e2a08-b386-4c2c-b4f8-b8256e051b64/resourceGroups/RG-ADFCourse/providers/Microsoft.Storage/storageAccounts/adfstgdatafactory"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
