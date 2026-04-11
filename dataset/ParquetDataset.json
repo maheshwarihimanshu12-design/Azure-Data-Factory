@@ -1,0 +1,20 @@
+{
+	"name": "ParquetDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkServiceDataLake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "parquetfiles",
+				"fileSystem": "destination"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
